@@ -1,0 +1,6 @@
+{
+    "hero":"import React from 'react';",
+    "features":"import { useFeaturedProductsQuery } from '@lib/hooks/use-layout-data'; import UnderlineLink from '@modules/common/components/underline-link'; import ProductPreview from '@modules/products/components/product-preview'; import SkeletonProductPreview from '@modules/skeletons/components/skeleton-product-preview';",
+    "footer":"import UnderlineLink from '@modules/common/components/underline-link'; import Image from 'next/image';",
+    "nav":"import { useMobileMenu } from \"@lib/context/mobile-menu-context\"; import Hamburger from \"@modules/common/components/hamburger\"; import CartDropdown from \"@modules/layout/components/cart-dropdown\"; import DropdownMenu from \"@modules/layout/components/dropdown-menu\"; import MobileMenu from \"@modules/mobile-menu/templates\"; import DesktopSearchModal from \"@modules/search/templates/desktop-search-modal\"; import clsx from \"clsx\"; import Link from \"next/link\"; import { usePathname } from \"next/navigation\"; import { useEffect, useState } from \"react\"; import UnderlineLink from \"@modules/common/components/underline-link\";"
+}
