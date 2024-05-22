@@ -1,0 +1,15 @@
+To start a Uvicorn server, you can use the following command in your terminal:
+uvicorn main:app --host 0.0.0.0 --port 8000
+Here:
+main is the name of your main application file (e.g., main.py)
+app is the name of the FastAPI application instance (e.g., app = FastAPI())
+--host 0.0.0.0 specifies the host address to bind to (in this case, all available network interfaces)
+--port 8000 specifies the port number to use (in this case, port 8000)
+You can also add additional options, such as:
+--reload to enable automatic reloading of the application when changes are detected
+--workers to specify the number of worker processes to use
+--log-level to set the logging level (e.g., info, debug, etc.)
+Example with additional options:
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload --workers 4 --log-level debug
+Make sure to replace main and app with the appropriate names for your application.
+Once you run the command, Uvicorn will start the server and make your application available at the specified host and port.
